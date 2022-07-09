@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Header_navbar = () => {
+const Header_Navbar = () => {
   return (
     <div>Header_navbar</div>
   )
 }
 
-export default Header_navbar
+export default Header_Navbar
