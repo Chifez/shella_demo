@@ -38,7 +38,7 @@ const Header_Top = () => {
 					</TopLeftIcons>
 					<p>
 						Call Us :{" "}
-						<span style={{ fontWeight: "500", fontSize: "1rem" }}>
+						<span style={{ fontWeight: "700", fontSize: "0.8rem" }}>
 							{" "}
 							800-123-4567{" "}
 						</span>

@@ -1,0 +1,23 @@
+.icon {
+	width: 20px;
+	height: 20px;
+	/* object-fit: cover; */
+	margin: 0 0.7rem;
+}
+
+.icon:hover {
+	fill: gray;
+}
+
+.logo {
+	width: 64px;
+	height: 27px;
+	object-fit: cover;
+	margin-left: 0;
+	/* height: fit-content; */
+}
+
+.search {
+	position: absolute;
+	left: 0;
+}
