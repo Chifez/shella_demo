@@ -21,3 +21,10 @@
 	position: absolute;
 	left: 0;
 }
+
+.hamburger {
+	fill: white;
+	width: auto;
+	height: 24px;
+	margin: 0;
+}

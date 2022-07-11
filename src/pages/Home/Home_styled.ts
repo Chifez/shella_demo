@@ -12,7 +12,7 @@ export const ContainerTop = styled.div`
 	font-size: 0.8rem;
 	font-family: commercial, monospace;
 	color: gray;
-	margin: 0 8rem;
+	margin: 0 5rem;
 	margin-bottom: 2rem;
 `;
 
@@ -75,7 +75,7 @@ export const SearchContainer = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	// border: 1px solid black;
-	margin: 0 8rem;
+	margin: 1rem 5rem;
 	height: auto;
 	max-width: 100vw;
 `;
@@ -152,4 +152,58 @@ export const CartIcon = styled.div`
 		color: gray;
 		fill: gray;
 	}
+`;
+
+/***********Header_Navbar **********/
+
+export const NavbarContainer = styled.div`
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	// border: 2px solid red;
+	padding: 0 5rem;
+
+	max-width: 100vw;
+	background: #e5e5e5;
+`;
+
+export const NavbarCategories = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	// border: 2px solid red;
+	background: black;
+	color: white;
+	height: 100%;
+	width: 18vw;
+	// padding-left: 0.3rem;
+	padding: 0.4rem 0 0.4rem 0.3rem;
+`;
+
+export const CategoryTitle = styled.div`
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	// border: 1px solid blue;
+`;
+
+export const NavbarLinks = styled.div`
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	left: 25rem;
+	margin-left: 1rem;
+`;
+
+export const NavbarLink = styled.a`
+	text-decoration: none;
+	margin: 0 0.4rem;
+	color: black;
+`;
+
+export const NavTitle = styled.p`
+	text-transform: uppercase;
+	font-size: 0.9rem;
 `;

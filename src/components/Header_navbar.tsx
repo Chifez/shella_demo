@@ -1,35 +1,45 @@
 import React from "react";
 import { ReactComponent as CategoryIcon } from "../assets/icons/category.svg";
+import {
+	NavbarContainer,
+	NavbarCategories,
+	CategoryTitle,
+	NavbarLinks,
+	NavbarLink,
+	NavTitle,
+} from "../pages/Home/Home_styled";
 
 const Header_Navbar = () => {
 	return (
-		<div>
-			<div>
-				<CategoryIcon />
-				<p>categories</p>
-			</div>
-			<a href="#">
-				<p>about</p>
-			</a>
-			<a href="#">
-				<p>delivery</p>
-			</a>
-			<a href="#">
-				<p>payment</p>
-			</a>
-			<a href="#">
-				<p>contacts</p>
-			</a>
-			<a href="#">
-				<p>mega menu</p>
-			</a>
-			<a href="#">
-				<p>mega menu 2</p>
-			</a>
-			<a href="#">
-				<p>mega menu 3</p>
-			</a>
-		</div>
+		<NavbarContainer>
+			<NavbarCategories>
+				<CategoryIcon className="icon hamburger" />
+				<CategoryTitle>categories</CategoryTitle>
+			</NavbarCategories>
+			<NavbarLinks>
+				<NavbarLink href="#">
+					<NavTitle>about</NavTitle>
+				</NavbarLink>
+				<NavbarLink href="#">
+					<NavTitle>delivery</NavTitle>
+				</NavbarLink>
+				<NavbarLink href="#">
+					<NavTitle>payment</NavTitle>
+				</NavbarLink>
+				<NavbarLink href="#">
+					<NavTitle>contacts</NavTitle>
+				</NavbarLink>
+				<NavbarLink href="#">
+					<NavTitle>mega menu</NavTitle>
+				</NavbarLink>
+				<NavbarLink href="#">
+					<NavTitle>mega menu 2</NavTitle>
+				</NavbarLink>
+				<NavbarLink href="#">
+					<NavTitle>mega menu 3</NavTitle>
+				</NavbarLink>
+			</NavbarLinks>
+		</NavbarContainer>
 	);
 };
 
